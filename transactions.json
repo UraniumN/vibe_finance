@@ -1,0 +1,3212 @@
+[
+  {
+    "transaction": true,
+    "amount": "100.00",
+    "type": "credit",
+    "party": "Vyapar",
+    "date": null,
+    "time": "04:20",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "470.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "04:20",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "60.00",
+    "type": "credit",
+    "party": "paytmqr6tarvj",
+    "date": null,
+    "time": "04:20",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "95.00",
+    "type": "credit",
+    "party": "Q424097667",
+    "date": null,
+    "time": "04:19",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "07:57",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "20.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "04:18",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "30.00",
+    "type": "credit",
+    "party": "gpay",
+    "date": null,
+    "time": "04:18",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "40.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-04-18",
+    "time": "12:19:21 PM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "07:57",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "40.00",
+    "type": "credit",
+    "party": "Q455841593",
+    "date": null,
+    "time": "04:17",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "99.00",
+    "type": "credit",
+    "party": "Q105494485",
+    "date": null,
+    "time": "04:17",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "100.00",
+    "type": "credit",
+    "party": "amazonpaybalanceload",
+    "date": null,
+    "time": "04:17",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "79",
+    "type": "debit",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "7.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "04:16",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "168.00",
+    "type": "credit",
+    "party": "Q704308122",
+    "date": null,
+    "time": "04:16",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "274.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "04:15",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "2096.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-04-15",
+    "time": "02:36:48 PM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "10.00",
+    "type": "credit",
+    "party": "paytmqr6pdge8",
+    "date": null,
+    "time": "04:15",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "55.00",
+    "type": "credit",
+    "party": "paytmqr6pdge8",
+    "date": null,
+    "time": "04:15",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "200.00",
+    "type": "credit",
+    "party": "eazypay",
+    "date": null,
+    "time": "04:15",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "3000.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-04-15",
+    "time": "02:39:58 AM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "4.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "04:14",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "8.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "04:14",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "8.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "04:14",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "25.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "04:14",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "0",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "400.00",
+    "type": "credit",
+    "party": "amazonpaybalanceload",
+    "date": null,
+    "time": "04:13",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "373.50",
+    "type": "credit",
+    "party": "paytm",
+    "date": null,
+    "time": "04:13",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "285.00",
+    "type": "credit",
+    "party": "amazonupi",
+    "date": null,
+    "time": "04:12",
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "818.20",
+    "type": "credit",
+    "party": "amazonpaygrocery",
+    "date": null,
+    "time": "04:12",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "20:02",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": "explore",
+    "date": null,
+    "time": "20:02",
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "663",
+    "type": "debit",
+    "party": "you",
+    "date": null,
+    "time": null,
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "60.00",
+    "type": "credit",
+    "party": "amazonpayhfc",
+    "date": null,
+    "time": "04:10",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "90.00",
+    "type": "credit",
+    "party": "amazonpayhfc",
+    "date": null,
+    "time": "04:10",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "5000.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-04-09",
+    "time": "10:16:37 PM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "25.00",
+    "type": "credit",
+    "party": "paytmqr6zj3go",
+    "date": null,
+    "time": "04:09",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "17:43",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "35.00",
+    "type": "credit",
+    "party": "Q424097667",
+    "date": null,
+    "time": "04:09",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "130.00",
+    "type": "credit",
+    "party": "Q209042061",
+    "date": null,
+    "time": "04:08",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "50.00",
+    "type": "credit",
+    "party": "Q361969569",
+    "date": null,
+    "time": "04:08",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "2095.00",
+    "type": "credit",
+    "party": "anurag115verma",
+    "date": null,
+    "time": "04:08",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "4070.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-04-06",
+    "time": "02:39:50 PM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "500.00",
+    "type": "credit",
+    "party": "maitris629",
+    "date": null,
+    "time": "04:05",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "40.00",
+    "type": "credit",
+    "party": "BHARATPE",
+    "date": null,
+    "time": "04:04",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "4000.00",
+    "type": "credit",
+    "party": "anurag115verma",
+    "date": null,
+    "time": "04:04",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "14.00",
+    "type": "credit",
+    "party": "Q401099455",
+    "date": null,
+    "time": "04:04",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "23:56",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "40.00",
+    "type": "credit",
+    "party": "paytmqr5qdl35soc2",
+    "date": null,
+    "time": "04:01",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "169.00",
+    "type": "credit",
+    "party": "blinkit",
+    "date": null,
+    "time": "04:01",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "169",
+    "type": "debit",
+    "party": "you",
+    "date": null,
+    "time": null,
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.2,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.2,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.2,
+    "sender": null
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.2,
+    "sender": null
+  },
+  {
+    "transaction": true,
+    "amount": "150.00",
+    "type": "credit",
+    "party": "paytmqrqjhk7o9jqf",
+    "date": null,
+    "time": "03:29",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "163.00",
+    "type": "credit",
+    "party": "ibkPOS",
+    "date": null,
+    "time": "03:28",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "376.00",
+    "type": "credit",
+    "party": "Q789258486",
+    "date": null,
+    "time": "03:28",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.2,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "3000",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "500.00",
+    "type": "credit",
+    "party": "anurag115verma",
+    "date": null,
+    "time": "03:26",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "4000.00",
+    "type": "credit",
+    "party": "anurag115verma",
+    "date": null,
+    "time": "03:26",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "532.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "03:25",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "200.00",
+    "type": "credit",
+    "party": "paytmqr6oiffw",
+    "date": null,
+    "time": "03:24",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "150.00",
+    "type": "credit",
+    "party": "paytmqr5df5wk",
+    "date": null,
+    "time": "03:24",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "40.00",
+    "type": "credit",
+    "party": "paytm",
+    "date": null,
+    "time": "03:24",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "2000.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-03-23",
+    "time": "02:42:57 AM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "229.00",
+    "type": "credit",
+    "party": "anurag115verma",
+    "date": null,
+    "time": "03:22",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "192.25",
+    "type": "credit",
+    "party": null,
+    "date": "2026-03-22",
+    "time": "03:36:39 PM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "debit",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "0.45",
+    "type": "unknown",
+    "party": "update",
+    "date": null,
+    "time": null,
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "192.25",
+    "type": "credit",
+    "party": "irctc2",
+    "date": null,
+    "time": "03:22",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "07:57",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "07:57",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "23.00",
+    "type": "credit",
+    "party": "paytm",
+    "date": null,
+    "time": "03:19",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "140.00",
+    "type": "credit",
+    "party": "paytmqr6yktz5",
+    "date": null,
+    "time": "03:19",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "20.00",
+    "type": "credit",
+    "party": "paytmqr6vb0q2",
+    "date": null,
+    "time": "03:19",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "24.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-03-19",
+    "time": "11:19:46 AM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "121.00",
+    "type": "credit",
+    "party": "paytm",
+    "date": null,
+    "time": "03:19",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "11:05",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189.00",
+    "type": "credit",
+    "party": "relianceretail2",
+    "date": null,
+    "time": "03:19",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "0.45",
+    "type": "unknown",
+    "party": "UPDATE",
+    "date": null,
+    "time": null,
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "162.25",
+    "type": "credit",
+    "party": "irctc2",
+    "date": null,
+    "time": "03:18",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "2800.00",
+    "type": "credit",
+    "party": "chetan9109810717",
+    "date": null,
+    "time": "03:18",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "500.00",
+    "type": "credit",
+    "party": "anurag115verma",
+    "date": null,
+    "time": "03:17",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "4500.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-03-17",
+    "time": "02:30:55 PM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "4999.75",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "283.00",
+    "type": "credit",
+    "party": "paytmqr6i5mmd",
+    "date": null,
+    "time": "03:17",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "4999.75",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "4999.75",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "3999.80",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "5000",
+    "type": "debit",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "5000",
+    "type": "debit",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "4000",
+    "type": "debit",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "5000",
+    "type": "debit",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "5000.00",
+    "type": "debit",
+    "party": "SBI",
+    "date": null,
+    "time": null,
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "90.00",
+    "type": "credit",
+    "party": "Q424097667",
+    "date": null,
+    "time": "03:15",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "4000.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "03:15",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "120.00",
+    "type": "credit",
+    "party": "Q209042061",
+    "date": null,
+    "time": "03:14",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "140.00",
+    "type": "credit",
+    "party": "Q552132224",
+    "date": null,
+    "time": "03:14",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "4000.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "03:14",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "209.00",
+    "type": "credit",
+    "party": "anishpure1504",
+    "date": null,
+    "time": "03:13",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "4999.75",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "50.00",
+    "type": "credit",
+    "party": "paytmqr1tkrg5wmoj",
+    "date": null,
+    "time": "03:12",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "120.00",
+    "type": "credit",
+    "party": "Q328704323",
+    "date": null,
+    "time": "03:12",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "debit",
+    "party": "you",
+    "date": null,
+    "time": null,
+    "confidence": 0.7,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "10.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-03-12",
+    "time": "03:26:58 PM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "1.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-03-11",
+    "time": "09:04:20 PM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "debit",
+    "party": "BROKENTUSK",
+    "date": null,
+    "time": null,
+    "confidence": 0.7,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "0.01",
+    "type": "credit",
+    "party": null,
+    "date": "2026-03-11",
+    "time": "08:57:39 PM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "1.00",
+    "type": "credit",
+    "party": "mobile",
+    "date": "2026-03-11",
+    "time": null,
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "20.00",
+    "type": "credit",
+    "party": "BHARATPE",
+    "date": null,
+    "time": "03:11",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "4000.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "03:11",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "18.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-03-10",
+    "time": "01:07:43 PM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "20.00",
+    "type": "credit",
+    "party": "Q424097667",
+    "date": null,
+    "time": "03:10",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "23:14",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "5000.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "03:09",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "5000.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "03:08",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "134",
+    "type": "debit",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "5000.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-03-07",
+    "time": "02:46:44 PM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "4000.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "03:07",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "1.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "03:07",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "38.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-03-06",
+    "time": "10:19:08 PM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "222.00",
+    "type": "credit",
+    "party": "paytm",
+    "date": null,
+    "time": "03:06",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "72.00",
+    "type": "credit",
+    "party": "Q413963587",
+    "date": null,
+    "time": "03:06",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "14.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "3000.00",
+    "type": "credit",
+    "party": "anurag115verma",
+    "date": null,
+    "time": "03:06",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "6000.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-03-05",
+    "time": "10:37:22 AM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "5000.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "03:05",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "50.00",
+    "type": "credit",
+    "party": "Q053189369",
+    "date": null,
+    "time": "03:03",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "20.00",
+    "type": "credit",
+    "party": "paytm",
+    "date": null,
+    "time": "03:03",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "244.00",
+    "type": "credit",
+    "party": "Q689168764",
+    "date": null,
+    "time": "03:03",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "192.25",
+    "type": "credit",
+    "party": "irctc",
+    "date": null,
+    "time": "03:02",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "0.45",
+    "type": "unknown",
+    "party": "UPDATE",
+    "date": null,
+    "time": null,
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "140.00",
+    "type": "credit",
+    "party": "paytmqr62sk4f",
+    "date": null,
+    "time": "03:02",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "85.00",
+    "type": "credit",
+    "party": "Q936346548",
+    "date": null,
+    "time": "03:02",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "debit",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "104.92",
+    "type": "credit",
+    "party": "MCDONALDSINDIA",
+    "date": null,
+    "time": "03:02",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "169.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "03:02",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "100.00",
+    "type": "credit",
+    "party": "Q824754547",
+    "date": null,
+    "time": "03:01",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "722.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "03:01",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "40.00",
+    "type": "credit",
+    "party": "paytmqr6vb0q2",
+    "date": null,
+    "time": "03:01",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "500.00",
+    "type": "credit",
+    "party": "anurag115verma",
+    "date": null,
+    "time": "02:28",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "20.00",
+    "type": "credit",
+    "party": "Q006673352",
+    "date": null,
+    "time": "02:26",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "20.00",
+    "type": "credit",
+    "party": "Q556197282",
+    "date": null,
+    "time": "02:26",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "483.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "02:25",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "247.00",
+    "type": "credit",
+    "party": "Q587358713",
+    "date": null,
+    "time": "02:25",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "300.00",
+    "type": "credit",
+    "party": "anurag115verma",
+    "date": null,
+    "time": "02:24",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "199.00",
+    "type": "credit",
+    "party": "ibkPOS",
+    "date": null,
+    "time": "02:24",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "0",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "340.00",
+    "type": "credit",
+    "party": "shubhamkmartpulgaon",
+    "date": null,
+    "time": "02:22",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "602.74",
+    "type": "credit",
+    "party": "innovdmartch",
+    "date": null,
+    "time": "02:22",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "40.00",
+    "type": "credit",
+    "party": "paytmqr6ez5e5",
+    "date": null,
+    "time": "02:22",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "07:57",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "40.00",
+    "type": "credit",
+    "party": "Q468192905",
+    "date": null,
+    "time": "02:21",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "07:57",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "193.30",
+    "type": "credit",
+    "party": "amazon",
+    "date": null,
+    "time": "02:20",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "193.30",
+    "type": "credit",
+    "party": null,
+    "date": "2026-02-20",
+    "time": "10:13:27 PM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "193.30",
+    "type": "credit",
+    "party": "amazonupi",
+    "date": null,
+    "time": "02:20",
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "50.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "02:20",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "500.00",
+    "type": "credit",
+    "party": "maitris629",
+    "date": null,
+    "time": "02:19",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "160.00",
+    "type": "credit",
+    "party": "Q137591242",
+    "date": null,
+    "time": "02:18",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "00:48",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": "explore",
+    "date": null,
+    "time": "00:48",
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "410.00",
+    "type": "credit",
+    "party": "zeptomarketplaceprivat",
+    "date": null,
+    "time": "02:14",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "410",
+    "type": "debit",
+    "party": "you",
+    "date": null,
+    "time": null,
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "262.00",
+    "type": "credit",
+    "party": "shubhamkmartjunwani",
+    "date": null,
+    "time": "02:14",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "14:13",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "227.00",
+    "type": "credit",
+    "party": "pinedmartch",
+    "date": null,
+    "time": "02:14",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "10.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-02-13",
+    "time": "10:16:32 PM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "180.00",
+    "type": "credit",
+    "party": "paytmqr6mkwf9",
+    "date": null,
+    "time": "02:13",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "debit",
+    "party": "ANURAG",
+    "date": null,
+    "time": null,
+    "confidence": 0.7,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "600.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-02-12",
+    "time": "09:48:20 AM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "1970.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-02-12",
+    "time": "09:43:49 AM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "3003.10",
+    "type": "debit",
+    "party": "Juspay",
+    "date": null,
+    "time": null,
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "229.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-02-11",
+    "time": "11:59:37 AM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "267.00",
+    "type": "credit",
+    "party": "shubhamkmartjunwani",
+    "date": null,
+    "time": "02:10",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "5000.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-02-10",
+    "time": "10:36:37 AM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "2800.00",
+    "type": "credit",
+    "party": "chetan9109810717",
+    "date": null,
+    "time": "02:10",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "50.00",
+    "type": "credit",
+    "party": "Q625842864",
+    "date": null,
+    "time": "02:09",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "20.00",
+    "type": "credit",
+    "party": "Q623945247",
+    "date": null,
+    "time": "02:09",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "237.00",
+    "type": "credit",
+    "party": "paytm",
+    "date": null,
+    "time": "02:09",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "500.00",
+    "type": "credit",
+    "party": "maitris629",
+    "date": null,
+    "time": "02:09",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "208.00",
+    "type": "credit",
+    "party": "paytm",
+    "date": null,
+    "time": "02:08",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "1000",
+    "type": "credit",
+    "party": null,
+    "date": "2026-02-07",
+    "time": "13:36",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "30.00",
+    "type": "credit",
+    "party": "Q556197282",
+    "date": null,
+    "time": "02:07",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "80.00",
+    "type": "credit",
+    "party": "Q966671914",
+    "date": null,
+    "time": "02:06",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "100.00",
+    "type": "credit",
+    "party": "paytmqr6rrtc1",
+    "date": null,
+    "time": "02:06",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "156.00",
+    "type": "credit",
+    "party": "setu",
+    "date": null,
+    "time": "02:05",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "442.00",
+    "type": "credit",
+    "party": "grofers1paytm",
+    "date": null,
+    "time": "02:03",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "442",
+    "type": "debit",
+    "party": "you",
+    "date": null,
+    "time": null,
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "200.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-02-03",
+    "time": "09:18:34 PM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "5000.00",
+    "type": "credit",
+    "party": "anurag115verma",
+    "date": null,
+    "time": "02:02",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "10000.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-02-02",
+    "time": "07:09:58 PM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "175.00",
+    "type": "credit",
+    "party": "paytmqr5df5wk",
+    "date": null,
+    "time": "02:01",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "23:37",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "debit",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "debit",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "1600.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "01:31",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "85.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "01:31",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "192.25",
+    "type": "credit",
+    "party": "irctc2",
+    "date": null,
+    "time": "01:31",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "0.45",
+    "type": "unknown",
+    "party": "update",
+    "date": null,
+    "time": null,
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "192.25",
+    "type": "debit",
+    "party": "you",
+    "date": null,
+    "time": null,
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "192.25",
+    "type": "debit",
+    "party": "you",
+    "date": null,
+    "time": null,
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "192.25",
+    "type": "debit",
+    "party": "you",
+    "date": null,
+    "time": null,
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "192.25",
+    "type": "debit",
+    "party": "you",
+    "date": null,
+    "time": null,
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "60.00",
+    "type": "credit",
+    "party": "Q489391783",
+    "date": null,
+    "time": "01:31",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "23.00",
+    "type": "credit",
+    "party": "paytm",
+    "date": null,
+    "time": "01:30",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "1440.00",
+    "type": "credit",
+    "party": "chetan9109810717",
+    "date": null,
+    "time": "01:29",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "1100.00",
+    "type": "credit",
+    "party": "MAB",
+    "date": null,
+    "time": "01:25",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "07:57",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "400.00",
+    "type": "credit",
+    "party": "anurag115verma",
+    "date": null,
+    "time": "01:24",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "129.00",
+    "type": "credit",
+    "party": "Q698062704",
+    "date": null,
+    "time": "01:24",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.2,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "07:57",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "45.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "01:23",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "160.00",
+    "type": "credit",
+    "party": "blinkit",
+    "date": null,
+    "time": "01:23",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "328.00",
+    "type": "credit",
+    "party": "blinkit",
+    "date": null,
+    "time": "01:22",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "50.00",
+    "type": "credit",
+    "party": "paytmqr68l63m",
+    "date": null,
+    "time": "01:22",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "116.00",
+    "type": "credit",
+    "party": "innovdmartch",
+    "date": null,
+    "time": "01:22",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "400.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-01-22",
+    "time": "09:57:26 AM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "104.00",
+    "type": "credit",
+    "party": "amazon",
+    "date": null,
+    "time": "01:21",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "50.00",
+    "type": "credit",
+    "party": "paytm",
+    "date": null,
+    "time": "01:18",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "60.00",
+    "type": "credit",
+    "party": "Getepay",
+    "date": null,
+    "time": "01:18",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "19:07",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": "explore",
+    "date": null,
+    "time": "19:07",
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "21:58",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "941",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "3882.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-01-13",
+    "time": "10:19:01 AM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "17:20",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "24.00",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "170.00",
+    "type": "credit",
+    "party": "paytmqr67p8by",
+    "date": null,
+    "time": "01:09",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "debit",
+    "party": "ASB",
+    "date": null,
+    "time": null,
+    "confidence": 0.7,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "88.00",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "4000.00",
+    "type": "credit",
+    "party": null,
+    "date": null,
+    "time": "01:08",
+    "confidence": 0.6,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "127.25",
+    "type": "debit",
+    "party": "you",
+    "date": null,
+    "time": null,
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "127.25",
+    "type": "debit",
+    "party": "you",
+    "date": null,
+    "time": null,
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "0.45",
+    "type": "unknown",
+    "party": "UPDATE",
+    "date": null,
+    "time": null,
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "226.00",
+    "type": "credit",
+    "party": "shubhamkmartjunwani",
+    "date": null,
+    "time": "01:04",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "debit",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "5000.00",
+    "type": "credit",
+    "party": null,
+    "date": "2026-01-02",
+    "time": "01:46:24 PM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "0.45",
+    "type": "unknown",
+    "party": "update",
+    "date": null,
+    "time": null,
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "0.45",
+    "type": "unknown",
+    "party": "update",
+    "date": null,
+    "time": null,
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "0",
+    "type": "unknown",
+    "party": "UPDATE",
+    "date": null,
+    "time": null,
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "debit",
+    "party": "Amazon",
+    "date": null,
+    "time": null,
+    "confidence": 0.7,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "305.00",
+    "type": "credit",
+    "party": "amazonupi",
+    "date": null,
+    "time": "01:02",
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "372.70",
+    "type": "debit",
+    "party": "you",
+    "date": null,
+    "time": null,
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": "VERIFY",
+    "date": null,
+    "time": null,
+    "confidence": 0.4,
+    "sender": null
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.2,
+    "sender": null
+  },
+  {
+    "transaction": true,
+    "amount": "372",
+    "type": "debit",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "07:57",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "07:57",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "debit",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "debit",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.2,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "debit",
+    "party": "receive",
+    "date": null,
+    "time": null,
+    "confidence": 0.7,
+    "sender": null
+  },
+  {
+    "transaction": true,
+    "amount": "104.00",
+    "type": "unknown",
+    "party": "verify",
+    "date": "2526-11-15",
+    "time": null,
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "104.00",
+    "type": "unknown",
+    "party": null,
+    "date": "2526-11-15",
+    "time": null,
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "1118.00",
+    "type": "credit",
+    "party": null,
+    "date": "2025-12-09",
+    "time": "08:28:26 PM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.2,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "941",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "16:30",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": "explore",
+    "date": null,
+    "time": "16:30",
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "3.00",
+    "type": "credit",
+    "party": null,
+    "date": "2025-12-06",
+    "time": "04:10:16 PM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "240.00",
+    "type": "credit",
+    "party": "gpay",
+    "date": null,
+    "time": "12:06",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "70.00",
+    "type": "credit",
+    "party": "Q137591242",
+    "date": null,
+    "time": "12:06",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": "pay",
+    "date": null,
+    "time": null,
+    "confidence": 0.4,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "debit",
+    "party": "JioMart",
+    "date": null,
+    "time": null,
+    "confidence": 0.7,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "10.00",
+    "type": "credit",
+    "party": null,
+    "date": "2025-12-06",
+    "time": "09:11:49 AM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "140.00",
+    "type": "credit",
+    "party": "Q390508765",
+    "date": null,
+    "time": "12:05",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "19:51",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "43",
+    "type": "credit",
+    "party": null,
+    "date": "2025-12-05",
+    "time": "15:36",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "240.00",
+    "type": "credit",
+    "party": "Q251853777",
+    "date": null,
+    "time": "12:05",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "0.45",
+    "type": "unknown",
+    "party": "UPDATE",
+    "date": null,
+    "time": null,
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "0.45",
+    "type": "unknown",
+    "party": "UPDATE",
+    "date": null,
+    "time": null,
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": "pay",
+    "date": null,
+    "time": null,
+    "confidence": 0.4,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "debit",
+    "party": "JioMart",
+    "date": null,
+    "time": null,
+    "confidence": 0.7,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "46.00",
+    "type": "credit",
+    "party": "Upi",
+    "date": null,
+    "time": null,
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "14:33",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "0",
+    "type": "unknown",
+    "party": "UPDATE",
+    "date": null,
+    "time": null,
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": "VERIFY",
+    "date": null,
+    "time": null,
+    "confidence": 0.4,
+    "sender": null
+  },
+  {
+    "transaction": true,
+    "amount": "0.45",
+    "type": "unknown",
+    "party": "update",
+    "date": null,
+    "time": null,
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "122.25",
+    "type": "debit",
+    "party": "you",
+    "date": null,
+    "time": null,
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "799",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "07:57",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "799",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": "07:57",
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": "VERIFY",
+    "date": null,
+    "time": null,
+    "confidence": 0.4,
+    "sender": null
+  },
+  {
+    "transaction": true,
+    "amount": "189",
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.3,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.2,
+    "sender": null
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": "INITIATE",
+    "date": null,
+    "time": null,
+    "confidence": 0.4,
+    "sender": null
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": "INITIATE",
+    "date": null,
+    "time": null,
+    "confidence": 0.4,
+    "sender": null
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": "INITIATE",
+    "date": null,
+    "time": null,
+    "confidence": 0.4,
+    "sender": null
+  },
+  {
+    "transaction": true,
+    "amount": "800.00",
+    "type": "credit",
+    "party": null,
+    "date": "2025-11-25",
+    "time": "10:43:17 AM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "964.68",
+    "type": "debit",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "1792",
+    "type": "debit",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "10000.00",
+    "type": "debit",
+    "party": null,
+    "date": "2025-11-14",
+    "time": "15:16",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "debit",
+    "party": "EKNATH",
+    "date": null,
+    "time": null,
+    "confidence": 0.7,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "264.00",
+    "type": "credit",
+    "party": "amazonpaygrocery",
+    "date": null,
+    "time": "11:10",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "4190.00",
+    "type": "credit",
+    "party": null,
+    "date": "2025-11-09",
+    "time": "09:39:08 AM",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "0.45",
+    "type": "unknown",
+    "party": "update",
+    "date": null,
+    "time": null,
+    "confidence": 0.5,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "192.25",
+    "type": "debit",
+    "party": "you",
+    "date": null,
+    "time": null,
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.2,
+    "sender": null
+  },
+  {
+    "transaction": true,
+    "amount": "80.00",
+    "type": "credit",
+    "party": "BHARATPE",
+    "date": null,
+    "time": "10:25",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "438",
+    "type": "debit",
+    "party": "you",
+    "date": null,
+    "time": null,
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "438.00",
+    "type": "credit",
+    "party": "myjio",
+    "date": null,
+    "time": "10:23",
+    "confidence": 0.8,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.2,
+    "sender": null
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.2,
+    "sender": null
+  },
+  {
+    "transaction": true,
+    "amount": "438.00",
+    "type": "debit",
+    "party": "you",
+    "date": null,
+    "time": null,
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "438",
+    "type": "debit",
+    "party": "you",
+    "date": null,
+    "time": null,
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": "pay",
+    "date": null,
+    "time": null,
+    "confidence": 0.4,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "debit",
+    "party": "JioMart",
+    "date": null,
+    "time": null,
+    "confidence": 0.7,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": "61.00",
+    "type": "credit",
+    "party": "Upi",
+    "date": null,
+    "time": null,
+    "confidence": 1.0,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "debit",
+    "party": "Smart",
+    "date": null,
+    "time": null,
+    "confidence": 0.7,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": "pay",
+    "date": null,
+    "time": null,
+    "confidence": 0.4,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "debit",
+    "party": "JioMart",
+    "date": null,
+    "time": null,
+    "confidence": 0.7,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "credit",
+    "party": "recover",
+    "date": null,
+    "time": null,
+    "confidence": 0.7,
+    "sender": "A GDC"
+  },
+  {
+    "transaction": true,
+    "amount": null,
+    "type": "unknown",
+    "party": null,
+    "date": null,
+    "time": null,
+    "confidence": 0.2,
+    "sender": null
+  }
+]

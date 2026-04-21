@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI-powered personal finance chatbot with expense tracking, stock forecasting, investment advice, and CSV/Excel bank statement analysis.">
+    <title>VibeFinance — AI Finance Chatbot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="main-nav">
+        <div class="nav-inner">
+            <div class="nav-brand">
+                <div class="brand-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7l10 5 10-5-10-5z" fill="url(#g1)"/><path d="M2 17l10 5 10-5" stroke="url(#g2)" stroke-width="2" fill="none"/><path d="M2 12l10 5 10-5" stroke="url(#g3)" stroke-width="2" fill="none"/><defs><linearGradient id="g1" x1="2" y1="2" x2="22" y2="12"><stop stop-color="#818cf8"/><stop offset="1" stop-color="#c084fc"/></linearGradient><linearGradient id="g2" x1="2" y1="17" x2="22" y2="22"><stop stop-color="#818cf8"/><stop offset="1" stop-color="#c084fc"/></linearGradient><linearGradient id="g3" x1="2" y1="12" x2="22" y2="17"><stop stop-color="#818cf8"/><stop offset="1" stop-color="#c084fc"/></linearGradient></defs></svg>
+                </div>
+                <span class="brand-name">VibeFinance</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link" id="nav-fraud">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    Fraud Detection
+                </a>
+                <a href="chatbot.html" class="nav-link active" id="nav-chatbot">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+                    AI Chatbot
+                </a>
+            </div>
+            <div class="nav-actions">
+                <button class="btn-icon" id="theme-toggle" title="Toggle Theme">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content" id="main-content">
+        <!-- Hero -->
+        <section class="hero-section" style="padding: 32px 0 16px;">
+            <div class="hero-bg-orbs">
+                <div class="orb orb-1"></div>
+                <div class="orb orb-2"></div>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">Personal Finance <span class="gradient-text">Chatbot</span></h1>
+                <p class="hero-subtitle">Track expenses, forecast stocks, get investment advice, and analyze bank statements — all powered by AI.</p>
+            </div>
+        </section>
+
+        <!-- Chat Layout -->
+        <div class="chat-layout">
+            <!-- Sidebar -->
+            <aside class="chat-sidebar">
+                <!-- Gemini API -->
+                <div class="sidebar-card glass-card">
+                    <h3>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a5 5 0 015 5v3a5 5 0 01-10 0V7a5 5 0 015-5z"/><path d="M8 14v2a4 4 0 008 0v-2"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="8" y1="22" x2="16" y2="22"/></svg>
+                        Gemini AI
+                    </h3>
+                    <div class="form-field">
+                        <label for="gemini-api-key">API Key</label>
+                        <input type="password" id="gemini-api-key" placeholder="Enter Gemini API key...">
+                    </div>
+                    <div class="form-field" style="display:flex;align-items:center;gap:8px;">
+                        <input type="checkbox" id="gemini-toggle" style="width:auto;">
+                        <label for="gemini-toggle" style="margin:0;cursor:pointer;">Enable Gemini AI</label>
+                    </div>
+                    <div id="gemini-status" style="font-size:11px;margin-top:4px;"></div>
+                </div>
+
+                <!-- Context Settings -->
+                <div class="sidebar-card glass-card">
+                    <h3>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9"/></svg>
+                        Context
+                    </h3>
+                    <div class="form-field">
+                        <label for="income-input">Monthly Income (₹)</label>
+                        <input type="number" id="income-input" value="50000" min="0" step="1000">
+                    </div>
+                    <div class="form-field">
+                        <label for="ticker-select">Stock Ticker</label>
+                        <select id="ticker-select">
+                            <option value="NIFTY50">NIFTY50</option>
+                            <option value="ADANIENT.NS">ADANIENT.NS</option>
+                            <option value="ADANIPORTS.NS">ADANIPORTS.NS</option>
+                            <option value="AXISBANK.NS">AXISBANK.NS</option>
+                            <option value="BAJFINANCE.NS">BAJFINANCE.NS</option>
+                            <option value="BHARTIARTL.NS">BHARTIARTL.NS</option>
+                            <option value="HCLTECH.NS">HCLTECH.NS</option>
+                            <option value="HDFCBANK.NS">HDFCBANK.NS</option>
+                            <option value="ICICIBANK.NS">ICICIBANK.NS</option>
+                            <option value="INFY.NS">INFY.NS</option>
+                            <option value="ITC.NS">ITC.NS</option>
+                            <option value="LT.NS">LT.NS</option>
+                            <option value="RELIANCE.NS">RELIANCE.NS</option>
+                            <option value="SBIN.NS">SBIN.NS</option>
+                            <option value="SUNPHARMA.NS">SUNPHARMA.NS</option>
+                            <option value="TCS.NS" selected>TCS.NS</option>
+                            <option value="TATAMOTORS.NS">TATAMOTORS.NS</option>
+                            <option value="TATASTEEL.NS">TATASTEEL.NS</option>
+                            <option value="TITAN.NS">TITAN.NS</option>
+                            <option value="WIPRO.NS">WIPRO.NS</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- File Upload -->
+                <div class="sidebar-card glass-card">
+                    <h3>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                        Statement Upload
+                    </h3>
+                    <div class="upload-area" id="upload-area">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                        <p>Upload CSV or Excel</p>
+                        <input type="file" id="file-upload" accept=".csv,.xlsx,.xls">
+                    </div>
+                    <div id="upload-status"></div>
+                </div>
+
+                <!-- Quick Actions -->
+                <div class="sidebar-card glass-card">
+                    <h3>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                        Quick Actions
+                    </h3>
+                    <div class="quick-actions">
+                        <button class="quick-btn" data-msg="Show my monthly summary">
+                            📊 Budget Summary
+                        </button>
+                        <button class="quick-btn" data-msg="Give stock forecast">
+                            📈 Stock Forecast
+                        </button>
+                        <button class="quick-btn" data-msg="Should I invest now?">
+                            💡 Should I Invest?
+                        </button>
+                        <button class="quick-btn" data-msg="Give file insights">
+                            📄 File Insights
+                        </button>
+                        <button class="quick-btn" data-msg="Spent 500 on dinner at restaurant">
+                            💸 Log Expense
+                        </button>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Chat Area -->
+            <div class="chat-area glass-card">
+                <div class="chat-messages-container" id="chat-messages">
+                    <!-- Messages will be rendered here -->
+                </div>
+                <div class="chat-input-area">
+                    <input type="text" id="chat-input" placeholder="Type here... e.g. Spent 500 on dinner / Should I invest?">
+                    <button class="chat-send-btn" id="chat-send">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Statement Dashboard (shown after file upload) -->
+        <div id="statement-dashboard" class="statement-dashboard" style="display: none;">
+            <div class="glass-card" style="padding: 24px;">
+                <h2 style="margin-bottom: 16px;">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: inline; vertical-align: middle;"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+                    Statement Dashboard
+                </h2>
+
+                <!-- Month Selector -->
+                <div class="form-field" style="max-width: 200px; margin-bottom: 16px;">
+                    <label for="month-select">Select Month</label>
+                    <select id="month-select"></select>
+                </div>
+
+                <!-- Stats Cards Row -->
+                <div class="stat-cards-row" id="stat-cards-row"></div>
+
+                <!-- Summary Narrative -->
+                <div class="glass-card" style="padding: 20px; margin-bottom: 16px; border: 1px solid var(--border-color);">
+                    <p style="font-size: 13px; font-weight: 500; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 10px;">Summary</p>
+                    <p id="summary-narrative" style="font-size: 14px; line-height: 1.8;"></p>
+                    <p id="merchant-narrative" style="font-size: 14px; line-height: 1.8; margin-top: 12px;"></p>
+                </div>
+
+                <!-- Spending Breakdown -->
+                <div class="glass-card" style="padding: 20px; margin-bottom: 16px; border: 1px solid var(--border-color);">
+                    <p style="font-size: 13px; font-weight: 500; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 12px;">Spending Breakdown</p>
+                    <div id="spending-bars" class="spending-bar-container"></div>
+                </div>
+
+                <!-- Charts -->
+                <div class="charts-grid" style="margin-top: 16px;">
+                    <div class="chart-card glass-card">
+                        <h3 class="chart-title">Monthly Expenditure Trend</h3>
+                        <div class="chart-container">
+                            <canvas id="monthly-trend-chart"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card glass-card">
+                        <h3 class="chart-title">Category Breakdown</h3>
+                        <div class="chart-container">
+                            <canvas id="category-chart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>VibeFinance &copy; 2026 — AI-Powered Fraud Detection & Financial Analysis</p>
+    </footer>
+
+    <script src="chatbot.js"></script>
+</body>
+</html>

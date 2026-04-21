@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI-powered fraud detection dashboard and finance chatbot. Analyze transactions, detect fraud patterns, and get financial insights.">
+    <title>VibeFinance — AI Fraud Detection & Finance Suite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="main-nav">
+        <div class="nav-inner">
+            <div class="nav-brand">
+                <div class="brand-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7l10 5 10-5-10-5z" fill="url(#g1)"/><path d="M2 17l10 5 10-5" stroke="url(#g2)" stroke-width="2" fill="none"/><path d="M2 12l10 5 10-5" stroke="url(#g3)" stroke-width="2" fill="none"/><defs><linearGradient id="g1" x1="2" y1="2" x2="22" y2="12"><stop stop-color="#818cf8"/><stop offset="1" stop-color="#c084fc"/></linearGradient><linearGradient id="g2" x1="2" y1="17" x2="22" y2="22"><stop stop-color="#818cf8"/><stop offset="1" stop-color="#c084fc"/></linearGradient><linearGradient id="g3" x1="2" y1="12" x2="22" y2="17"><stop stop-color="#818cf8"/><stop offset="1" stop-color="#c084fc"/></linearGradient></defs></svg>
+                </div>
+                <span class="brand-name">VibeFinance</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link active" id="nav-fraud">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    Fraud Detection
+                </a>
+                <a href="chatbot.html" class="nav-link" id="nav-chatbot">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+                    AI Chatbot
+                </a>
+            </div>
+            <div class="nav-actions">
+                <button class="btn-icon" id="theme-toggle" title="Toggle Theme">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content" id="main-content">
+        <!-- Hero Header -->
+        <section class="hero-section">
+            <div class="hero-bg-orbs">
+                <div class="orb orb-1"></div>
+                <div class="orb orb-2"></div>
+                <div class="orb orb-3"></div>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">Fraud Detection <span class="gradient-text">Dashboard</span></h1>
+                <p class="hero-subtitle">AI-powered transaction analysis with real-time risk scoring. Powered by three independent detection logics.</p>
+            </div>
+        </section>
+
+        <!-- Config Panel -->
+        <section class="config-panel glass-card" id="config-panel">
+            <div class="config-header">
+                <h2 class="section-title">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+                    Detection Configuration
+                </h2>
+                <button class="btn btn-primary" id="run-detection-btn">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                    Run Detection
+                </button>
+            </div>
+            <div class="config-grid">
+                <div class="config-item">
+                    <label for="config-threshold">Threshold Amount (₹)</label>
+                    <input type="number" id="config-threshold" value="50000" min="0" step="1000">
+                    <span class="config-hint">Logic 1: Flag amounts above this</span>
+                </div>
+                <div class="config-item">
+                    <label for="config-time-window">Time Window (hours)</label>
+                    <input type="number" id="config-time-window" value="24" min="1" max="168">
+                    <span class="config-hint">Logic 2: Rolling window for repeat detection</span>
+                </div>
+                <div class="config-item">
+                    <label for="config-tolerance">Amount Tolerance (%)</label>
+                    <input type="number" id="config-tolerance" value="5" min="0" max="100">
+                    <span class="config-hint">Logic 2: Similarity margin for amounts</span>
+                </div>
+                <div class="config-item">
+                    <label for="config-repeat">Repeat Threshold</label>
+                    <input type="number" id="config-repeat" value="3" min="2" max="20">
+                    <span class="config-hint">Logic 2: Min repeats to trigger alert</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Summary Cards -->
+        <section class="summary-section" id="summary-section">
+            <div class="summary-grid">
+                <div class="summary-card glass-card" id="card-total">
+                    <div class="card-icon blue">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+                    </div>
+                    <div class="card-data">
+                        <span class="card-value" id="total-count">0</span>
+                        <span class="card-label">Total Transactions</span>
+                    </div>
+                </div>
+                <div class="summary-card glass-card" id="card-green">
+                    <div class="card-icon green">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </div>
+                    <div class="card-data">
+                        <span class="card-value" id="green-count">0</span>
+                        <span class="card-label">Safe (Green)</span>
+                    </div>
+                </div>
+                <div class="summary-card glass-card" id="card-orange">
+                    <div class="card-icon orange">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                    </div>
+                    <div class="card-data">
+                        <span class="card-value" id="orange-count">0</span>
+                        <span class="card-label">Suspicious (Orange)</span>
+                    </div>
+                </div>
+                <div class="summary-card glass-card" id="card-red">
+                    <div class="card-icon red">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+                    </div>
+                    <div class="card-data">
+                        <span class="card-value" id="red-count">0</span>
+                        <span class="card-label">Flagged (Red)</span>
+                    </div>
+                </div>
+                <div class="summary-card glass-card" id="card-amount">
+                    <div class="card-icon purple">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+                    </div>
+                    <div class="card-data">
+                        <span class="card-value" id="total-amount">₹0</span>
+                        <span class="card-label">Total Volume</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Charts Section -->
+        <section class="charts-section" id="charts-section">
+            <div class="charts-grid">
+                <div class="chart-card glass-card">
+                    <h3 class="chart-title">Flag Distribution</h3>
+                    <div class="chart-container">
+                        <canvas id="flag-pie-chart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-card glass-card">
+                    <h3 class="chart-title">Transaction Type Breakdown</h3>
+                    <div class="chart-container">
+                        <canvas id="type-bar-chart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-card glass-card chart-wide">
+                    <h3 class="chart-title">Amount Distribution by Flag</h3>
+                    <div class="chart-container chart-container-wide">
+                        <canvas id="amount-scatter-chart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Transaction Table -->
+        <section class="table-section glass-card" id="table-section">
+            <div class="table-header">
+                <h2 class="section-title">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                    Transactions
+                </h2>
+                <div class="table-controls">
+                    <div class="search-box">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                        <input type="text" id="search-input" placeholder="Search transactions...">
+                    </div>
+                    <select id="filter-flag" class="filter-select">
+                        <option value="all">All Flags</option>
+                        <option value="GREEN">🟢 Green</option>
+                        <option value="ORANGE">🟠 Orange</option>
+                        <option value="RED">🔴 Red</option>
+                    </select>
+                    <select id="filter-type" class="filter-select">
+                        <option value="all">All Types</option>
+                        <option value="credit">Credit</option>
+                        <option value="debit">Debit</option>
+                        <option value="unknown">Unknown</option>
+                    </select>
+                </div>
+            </div>
+            <div class="table-wrapper" id="table-wrapper">
+                <table class="data-table" id="transaction-table">
+                    <thead>
+                        <tr>
+                            <th data-sort="id" class="sortable">ID</th>
+                            <th data-sort="flag" class="sortable">Flag</th>
+                            <th data-sort="amount" class="sortable">Amount</th>
+                            <th data-sort="type" class="sortable">Type</th>
+                            <th data-sort="party" class="sortable">Party</th>
+                            <th data-sort="sender" class="sortable">Sender</th>
+                            <th data-sort="confidence" class="sortable">Confidence</th>
+                            <th>Alerts</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-footer" id="table-footer">
+                <span class="table-info" id="table-info">Showing 0 of 0</span>
+                <div class="pagination" id="pagination"></div>
+            </div>
+        </section>
+
+        <!-- Override Modal -->
+        <div class="modal-overlay" id="override-modal">
+            <div class="modal glass-card">
+                <div class="modal-header">
+                    <h3>Override Transaction Flag</h3>
+                    <button class="btn-close" id="modal-close">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>Transaction: <strong id="modal-tx-id"></strong></p>
+                    <p>Current Flag: <span id="modal-current-flag"></span></p>
+                    <p>Amount: <span id="modal-amount"></span></p>
+                    <div class="form-group">
+                        <label for="modal-note">Verification Note (optional)</label>
+                        <textarea id="modal-note" rows="3" placeholder="Reason for override..."></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" id="modal-cancel">Cancel</button>
+                    <button class="btn btn-success" id="modal-confirm">Mark as Verified (Green)</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading Overlay -->
+        <div class="loading-overlay" id="loading-overlay">
+            <div class="loading-spinner">
+                <div class="spinner-ring"></div>
+                <p>Processing transactions...</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>VibeFinance &copy; 2026 — AI-Powered Fraud Detection & Financial Analysis</p>
+    </footer>
+
+    <script src="fraud-engine.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
